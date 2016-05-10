@@ -1,0 +1,29 @@
+{
+  "name": "college",
+  "plural": "college",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "clgname": {
+      "type": "string",
+      "required": true
+    },
+    "clgaddress": {
+      "type": "string",
+      "required": true
+    },
+    "courses": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

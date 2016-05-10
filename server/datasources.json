@@ -1,0 +1,24 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "collegedb": {
+    "host": "naveena.strongloop.com",
+    "port": 3000,
+    "database": "collegedb",
+    "username": "naveena",
+    "password": "naveena",
+    "name": "collegedb",
+    "connector": "mysql"
+  },
+  "collegeDb": {
+    "host": "mongodb.collegeDb.com",
+    "port": 3000,
+    "database": "collegedb",
+    "password": "naveena",
+    "name": "collegeDb",
+    "user": "naveena",
+    "connector": "mongodb"
+  }
+}
